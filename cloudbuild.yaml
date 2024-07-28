@@ -25,7 +25,7 @@ steps:
          '--container-image-uri=us-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.1-0:latest',
          '--description=bikeshare-new-model',
          '--display-name=bikeshare-new-model',
-         '--artifact-uri=gs://saquib-vertex-mlops/bike-share-rf-regression-artifact/',
+         '--artifact-uri=gs://saquib-vertex-mlops-us-central1/bike-share-rf-regression-artifact/',
          '--project=deepfake-399413',
          '--region=us-central1']
 
